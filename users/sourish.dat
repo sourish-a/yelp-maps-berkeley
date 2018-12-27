@@ -1,0 +1,16 @@
+make_user(
+    'John DoeNero',     # name
+    [                   # reviews
+        # Northside restaurants
+        make_review('Top Dog', 3.0),
+        make_review("La Burrita", 5.0),
+        make_review("Chipotle Mexican Grill", 5.0),
+        make_review("Sweetheart Cafe", 4.5),
+        make_review("Gypsy's Trattoria Italiano", 4.5),
+        make_review("The Melt Berkeley", 4.0),
+        make_review("Cal Gyro Mediterranean", 4.0),
+        make_review("Gordo Taqueria", 1.5),
+        make_review("Subway", 4.0),
+        make_review("Thai Basil Cuisine", 4.5)
+    ]
+)
